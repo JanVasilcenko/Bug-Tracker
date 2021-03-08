@@ -1,0 +1,77 @@
+﻿@page "/Login"
+@using Model
+
+<style>
+    body {
+        background: rgb(112,58,180);
+        background: linear-gradient(90deg, rgba(112,58,180,1) 14%, rgba(29,141,253,1) 73%, rgba(69,99,252,1) 100%);
+    }
+</style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 child">
+                <EditForm Model="user">
+                    <DataAnnotationsValidator />
+                    <div id="myModal">
+                        <div class="modal-dialog modal-login">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Log in</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <InputText type="text" class="form-control" placeholder="Email" @bind-Value="user.email" />
+                                        <ValidationMessage For="@(() => user.email)" />
+                                    </div>
+                                    <div class="form-group">
+                                        <InputText type="password" class="form-control" placeholder="Password" @bind-Value="user.password" />
+                                        <ValidationMessage For="@(() => user.password)" />
+                                    </div>
+                                    <div class="form-group">
+                                        <button ype="submit" class="btn btn-primary btn-block btn-lg">Log in</button>
+                                    </div>
+                                    <p class="hint-text small"><a href="#">Forgot Your Password?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+            <div class="emptyDiv col-xs-12"></div>
+            <div class="col-xs-12 anotherChild">
+                <EditForm Model="user">
+                    <DataAnnotationsValidator />
+                    <div id="myModal">
+                        <div class="modal-dialog modal-login">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Sign up</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <InputText type="text" class="form-control" placeholder="Name" @bind-Value="user.name" />
+                                        <ValidationMessage For="@(() => user.name)" />
+                                    </div>
+                                    <div class="form-group">
+                                        <InputText type="text" class="form-control" placeholder="Email" @bind-Value="user.email" />
+                                        <ValidationMessage For="@(() => user.email)" />
+                                    </div>
+                                    <div class="form-group">
+                                        <InputText type="password" class="form-control" placeholder="Password" @bind-Value="user.password" />
+                                        <ValidationMessage For="@(() => user.password)" />
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block btn-lg">Sign up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+@code {
+    private User user = new User();
+}

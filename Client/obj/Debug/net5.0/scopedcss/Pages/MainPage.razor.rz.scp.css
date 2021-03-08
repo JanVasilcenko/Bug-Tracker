@@ -1,0 +1,172 @@
+body[b-q4qpzrla4k] {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.topnav[b-q4qpzrla4k] {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+    .topnav a[b-q4qpzrla4k] {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover[b-q4qpzrla4k] {
+        }
+
+        .topnav a.active[b-q4qpzrla4k] {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+    .topnav .icon[b-q4qpzrla4k] {
+        display: none;
+    }
+
+@media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child)[b-q4qpzrla4k] {
+        display: none;
+    }
+
+    .topnav a.icon[b-q4qpzrla4k] {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav.responsive[b-q4qpzrla4k] {
+        position: relative;
+    }
+
+        .topnav.responsive .icon[b-q4qpzrla4k] {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a[b-q4qpzrla4k] {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
+
+@media screen and (min-width: 1001px) {
+    .topnav[b-q4qpzrla4k] {
+        overflow: hidden;
+        position:fixed;
+        left:0;
+        background-color: rgba(255, 255, 255);
+        width: 235px;
+        height: 600px;
+        margin:20px 0 0 20px;
+        border-radius: 15px 15px 15px 5px;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+        .topnav a[b-q4qpzrla4k] {
+            float: left;
+            display: block;
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 0;
+        }
+            .topnav a.active[b-q4qpzrla4k] {
+                background-color: rgba(161, 119, 255, 0.3);
+                width: 100%;
+                text-align: left;
+                font-size: 20px;
+            }
+            .topnav a:hover[b-q4qpzrla4k] {
+                background-color: rgba(161, 119, 255, 0.2);
+                width:100%;
+                text-align:left;
+            }
+    .mainContainer[b-q4qpzrla4k]
+    {
+        display:flex;
+        height:100%;
+        width:100%;
+    }
+    .contentContainer[b-q4qpzrla4k]
+    {
+        margin: 30px 0 0 50px;
+        width:100%;
+        margin-left: 290px;
+    }
+    .contentContainer h1[b-q4qpzrla4k]
+    {
+        font-size: 50px;
+        color: white;
+
+    }
+    .line[b-q4qpzrla4k]
+    {
+        border-style: hidden hidden groove hidden;
+        border-color: white;
+        margin: 30px 50px 40px 0px;
+    }
+    .projectContainer[b-q4qpzrla4k] {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .project[b-q4qpzrla4k] {
+
+        flex-basis: 30%;
+        background-color: white;
+        margin-left: 30px;
+        border-radius: 15px 15px 15px 15px;
+        margin-bottom: 30px;
+        height: 350px;
+        padding: 20px 10px 10px 20px;
+        position:relative;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+    .project p[b-q4qpzrla4k]
+    {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .fa[b-q4qpzrla4k]
+    {
+        position:absolute;
+        bottom:0;
+        right:0;
+        float:right;
+        margin:0px 20px 20px 0px;
+        font-size:30px;
+    }
+    .projectPlus[b-q4qpzrla4k] {
+        flex-basis: 30%;
+        background-color: white;
+        margin-left: 30px;
+        position:relative;
+        border-radius: 15px 15px 15px 15px;
+        margin-bottom: 30px;
+        padding: 40px 5px 5px 5px;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+    .projectPlus h2[b-q4qpzrla4k]
+    {
+        font-size: 170px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-60%);
+    }
+}
+

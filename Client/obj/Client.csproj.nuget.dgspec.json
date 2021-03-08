@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C# Projects\\Bug-Tracker\\Client\\Client.csproj": {}
+    "E:\\Bug-Tracker\\Client\\Client.csproj": {}
   },
   "projects": {
-    "E:\\C# Projects\\Bug-Tracker\\Client\\Client.csproj": {
+    "E:\\Bug-Tracker\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C# Projects\\Bug-Tracker\\Client\\Client.csproj",
+        "projectUniqueName": "E:\\Bug-Tracker\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "E:\\C# Projects\\Bug-Tracker\\Client\\Client.csproj",
+        "projectPath": "E:\\Bug-Tracker\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Jan-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\C# Projects\\Bug-Tracker\\Client\\obj\\",
+        "outputPath": "E:\\Bug-Tracker\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jan-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
