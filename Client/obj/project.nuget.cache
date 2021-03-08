@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OzZjEVehnDne48SufP9ZIzKBx0mRAbPelUr3e8aDKr1fRxuhH+qKy4iDiz7Lq7vDYMGzTUMSdhmODFIs+aPy4g==",
+  "dgSpecHash": "Gk2YoVkXdp6dXLN3S2rfggchS50+08eweNhQ2XRSarJZ4mB+Ga53adgo6UClzJrRo4repTpLmehs0y/wrbPt/g==",
   "success": true,
-  "projectFilePath": "E:\\Bug-Tracker\\Client\\Client.csproj",
+  "projectFilePath": "E:\\CodeProjects\\Bug-Tracker\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

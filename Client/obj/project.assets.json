@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jan-PC\\.nuget\\packages\\": {}
+    "C:\\Users\\karrt\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bug-Tracker\\Client\\Client.csproj",
+      "projectUniqueName": "E:\\CodeProjects\\Bug-Tracker\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "E:\\Bug-Tracker\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\Jan-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\Bug-Tracker\\Client\\obj\\",
+      "projectPath": "E:\\CodeProjects\\Bug-Tracker\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\karrt\\.nuget\\packages\\",
+      "outputPath": "E:\\CodeProjects\\Bug-Tracker\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jan-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karrt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,8 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/C225a3hmHbO7pjGPupSpig3YNdQqdAYCYrkIHMNc7tu6qAPk7V/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
